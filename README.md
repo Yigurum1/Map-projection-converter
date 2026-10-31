@@ -1,6 +1,13 @@
 # Atlas — 地図投影法変換 / Map Projection Converter
 
-公開URL / Website: https://atlas-projection-studio.lithejelly.chatgpt.site
+GitHub Pages 公開先 / Deployment target: https://yigurum1.github.io/Map-projection-converter/
+
+## GitHub Pages
+
+Repository Settings → Pages → Build and deployment → Source を GitHub Actions に設定してください。
+初回設定後は Actions → Deploy site to GitHub Pages → Run workflow で公開できます。
+以降は main ブランチの dist/ への変更で自動更新します。配信対象は dist/ のみです。
+Set Settings → Pages → Source to GitHub Actions, then run the deployment workflow once. Future changes to dist/ on main deploy automatically.
 
 ## 起動方法 / Run locally
 
